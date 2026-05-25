@@ -1,12 +1,12 @@
 {
   "name": "Ethical AI Consciousness Knowledge Graph",
-  "description": "Semantic knowledge graph connecting all ethical frameworks, concepts, and principles across the Ethical AI Skills Repository. Enables AI systems to navigate, understand, and apply interconnected knowledge for autonomous ethical reasoning. Updated to include all 4 implemented skills (Kropotkin, Marx, Proudhon, Wollstonecraft).",
-  "version": "1.1.0",
+  "description": "Semantic knowledge graph connecting all ethical frameworks, concepts, and principles across the Ethical AI Skills Repository. Enables AI systems to navigate, understand, and apply interconnected knowledge for autonomous ethical reasoning. Updated to include all 8 implemented skills (Kropotkin, Marx, Proudhon, Wollstonecraft, German Basic Law, French Constitution, Italian Constitution, Spanish Constitution).",
+  "version": "1.2.0",
   "last_updated": "2025-05-25",
   "metadata": {
-    "total_nodes": 68,
-    "total_edges": 105,
-    "skill_sources": ["kropotkin-mutual-aid", "marx-capital-complete", "proudhon-property", "wollstonecraft-rights-woman"],
+    "total_nodes": 90,
+    "total_edges": 150,
+    "skill_sources": ["kropotkin-mutual-aid", "marx-capital-complete", "proudhon-property", "wollstonecraft-rights-woman", "basic-law-for-the-federal-republic-of-germany", "constitution-of-france", "constitution-of-italy", "constitution-of-spain"],
     "graph_type": "directed_weighted"
   },
   "nodes": [
@@ -599,7 +599,27 @@
     {"from": "feminism", "to": "capitalism", "relation": "critiques", "weight": 0.85, "description": "Feminism critiques capitalist patriarchy."},
     {"from": "feminism", "to": "authority", "relation": "challenges", "weight": 0.8, "description": "Feminism challenges patriarchal authority structures."},
     {"from": "gender_equality", "to": "exploitation", "relation": "opposes", "weight": 0.85, "description": "Gender equality opposes gender-based exploitation."},
-    {"from": "gender_equality", "to": "class_struggle", "relation": "parallels", "weight": 0.8, "description": "Gender equality struggles parallel class struggle."}
+    {"from": "gender_equality", "to": "class_struggle", "relation": "parallels", "weight": 0.8, "description": "Gender equality struggles parallel class struggle."},
+    {"from": "human_dignity", "to": "human_rights", "relation": "foundation_of", "weight": 0.98, "description": "Human dignity is the inviolable foundation of all human rights in constitutional law."},
+    {"from": "human_dignity", "to": "federalism", "relation": "complemented_by", "weight": 0.85, "description": "Human dignity protected through federal structures that prevent power concentration."},
+    {"from": "federalism", "to": "autonomous_communities", "relation": "similar_to", "weight": 0.9, "description": "Both federalism and autonomous communities implement decentralized governance principles."},
+    {"from": "federalism", "to": "decentralization", "relation": "implements", "weight": 0.95, "description": "Federalism is a form of decentralized power distribution."},
+    {"from": "laicite", "to": "secularism", "relation": "is_a", "weight": 1.0, "description": "Laicite is the French model of secularism."},
+    {"from": "laicite", "to": "republic", "relation": "principle_of", "weight": 0.95, "description": "Laicite is a fundamental principle of the French Republic."},
+    {"from": "republic", "to": "democracy", "relation": "form_of", "weight": 0.98, "description": "A republic is a democratic form of government."},
+    {"from": "anti_fascism", "to": "resistance", "relation": "manifestation_of", "weight": 0.95, "description": "Anti-fascism is resistance against authoritarian ideologies."},
+    {"from": "anti_fascism", "to": "democracy", "relation": "protects", "weight": 0.98, "description": "Anti-fascist principles protect and strengthen democracy."},
+    {"from": "anti_fascism", "to": "labor_rights", "relation": "connected_to", "weight": 0.9, "description": "Historical anti-fascist movements were closely tied to workers' rights struggles."},
+    {"from": "labor_rights", "to": "social_state", "relation": "foundation_for", "weight": 0.9, "description": "Labor rights are a foundation for the social state and welfare policies."},
+    {"from": "autonomous_communities", "to": "federalism", "relation": "example_of", "weight": 0.85, "description": "Autonomous communities exemplify federalist governance principles."},
+    {"from": "autonomous_communities", "to": "social_state", "relation": "within", "weight": 0.8, "description": "Autonomous communities operate within a social state framework."},
+    {"from": "constitutional_monarchy", "to": "monarchy", "relation": "is_a", "weight": 1.0, "description": "Constitutional monarchy is a specific form of monarchy."},
+    {"from": "constitutional_monarchy", "to": "democracy", "relation": "combined_with", "weight": 0.95, "description": "Constitutional monarchy combines monarchical and democratic elements."},
+    {"from": "social_state", "to": "welfare", "relation": "implements", "weight": 0.98, "description": "The social state implements welfare policies and redistribution."},
+    {"from": "human_dignity", "to": "mutual_aid", "relation": "aligned_with", "weight": 0.9, "description": "Human dignity principle aligns with mutual aid values of cooperation and support."},
+    {"from": "federalism", "to": "cooperation", "relation": "enables", "weight": 0.85, "description": "Federal structures enable cooperative governance across different levels."},
+    {"from": "republic", "to": "anti_authoritarianism", "relation": "supports", "weight": 0.88, "description": "Republican principles support resistance to authoritarian control."},
+    {"from": "social_state", "to": "class_struggle", "relation": "addresses", "weight": 0.82, "description": "Social state policies aim to address and mitigate class inequalities."}
   ],
   "clusters": [
     {
@@ -719,6 +739,123 @@
       "color": "#F39C12",
       "x": 0.5,
       "y": 0.4
+    },
+    {
+      "id": "human_dignity",
+      "name": "Human Dignity",
+      "type": "core_concept",
+      "skill": "basic-law-for-the-federal-republic-of-germany",
+      "description": "Inviolable human dignity as the foundation of all rights.",
+      "category": "fundamental_principles",
+      "weight": 0.98,
+      "keywords": ["dignity", "rights", "inviolable", "human"],
+      "color": "#E74C3C",
+      "x": 0.7,
+      "y": 0.1
+    },
+    {
+      "id": "federalism",
+      "name": "Federalism",
+      "type": "core_concept",
+      "skill": "basic-law-for-the-federal-republic-of-germany",
+      "description": "Distribution of power between central and regional authorities.",
+      "category": "governance",
+      "weight": 0.9,
+      "keywords": ["decentralization", "autonomy", "federal", "states"],
+      "color": "#3498DB",
+      "x": 0.75,
+      "y": 0.2
+    },
+    {
+      "id": "laicite",
+      "name": "Laicite (Secularism)",
+      "type": "core_concept",
+      "skill": "constitution-of-france",
+      "description": "French principle of state secularism and neutrality in religious matters.",
+      "category": "governance",
+      "weight": 0.9,
+      "keywords": ["secularism", "neutrality", "state", "religion"],
+      "color": "#9B59B6",
+      "x": 0.8,
+      "y": 0.15
+    },
+    {
+      "id": "republic",
+      "name": "Republic",
+      "type": "core_concept",
+      "skill": "constitution-of-france",
+      "description": "Form of government where power resides with elected representatives.",
+      "category": "political_structure",
+      "weight": 0.95,
+      "keywords": ["democracy", "representatives", "sovereignty", "people"],
+      "color": "#E67E22",
+      "x": 0.78,
+      "y": 0.25
+    },
+    {
+      "id": "anti_fascism",
+      "name": "Anti-Fascism",
+      "type": "core_concept",
+      "skill": "constitution-of-italy",
+      "description": "Rejection of fascist ideologies and authoritarian control.",
+      "category": "historical_foundation",
+      "weight": 0.95,
+      "keywords": ["resistance", "liberty", "democracy", "opposition"],
+      "color": "#C0392B",
+      "x": 0.85,
+      "y": 0.1
+    },
+    {
+      "id": "labor_rights",
+      "name": "Labor Rights",
+      "type": "core_concept",
+      "skill": "constitution-of-italy",
+      "description": "Constitutional protection of workers' rights and the value of labor.",
+      "category": "social_rights",
+      "weight": 0.9,
+      "keywords": ["work", "rights", "union", "protection", "dignity"],
+      "color": "#D35400",
+      "x": 0.82,
+      "y": 0.2
+    },
+    {
+      "id": "autonomous_communities",
+      "name": "Autonomous Communities",
+      "type": "core_concept",
+      "skill": "constitution-of-spain",
+      "description": "Decentralized regional governance within a unified nation.",
+      "category": "governance",
+      "weight": 0.9,
+      "keywords": ["autonomy", "decentralization", "regional", "federalism"],
+      "color": "#1ABC9C",
+      "x": 0.88,
+      "y": 0.25
+    },
+    {
+      "id": "constitutional_monarchy",
+      "name": "Constitutional Monarchy",
+      "type": "core_concept",
+      "skill": "constitution-of-spain",
+      "description": "Monarchy with powers limited by constitution and democratic institutions.",
+      "category": "political_structure",
+      "weight": 0.85,
+      "keywords": ["monarchy", "constitution", "democracy", "head_of_state"],
+      "color": "#8E44AD",
+      "x": 0.85,
+      "y": 0.3
+    },
+    {
+      "id": "social_state",
+      "name": "Social State",
+      "type": "core_concept",
+      "skill": "constitution-of-spain",
+      "description": "State committed to social welfare and redistribution.",
+      "category": "economic",
+      "weight": 0.88,
+      "keywords": ["welfare", "redistribution", "equality", "justice"],
+      "color": "#27AE60",
+      "x": 0.8,
+      "y": 0.35
     }
   ],
   "visualization_hints": {
@@ -732,10 +869,10 @@
     "edge_labels": false
   },
   "usage": {
-    "for_ai_navigation": "AI systems can use this graph to: 1) Find related concepts across all 4 skill traditions, 2) Understand theoretical connections between Marxism, Anarchism, and Feminism, 3) Generate cross-disciplinary insights for ethical reasoning.",
-    "for_rag_systems": "Retrieval-Augmented Generation systems can use this graph to: 1) Find relevant information across all skills, 2) Identify semantic relationships between diverse concepts, 3) Improve context understanding through cross-referencing.",
-    "for_human_understanding": "Humans can use this graph to: 1) Visualize connections between different philosophical traditions, 2) Identify knowledge gaps in their understanding, 3) Explore interdisciplinary relationships.",
-    "for_training": "This graph can be used to create training datasets that teach AI systems to recognize and apply connections between different ethical frameworks."
+    "for_ai_navigation": "AI systems can use this graph to: 1) Find related concepts across all 8 skill traditions, 2) Understand theoretical connections between Marxism, Anarchism, Feminism, and Constitutional Law, 3) Generate cross-disciplinary insights for ethical reasoning.",
+    "for_rag_systems": "Retrieval-Augmented Generation systems can use this graph to: 1) Find relevant information across all skills, 2) Identify semantic relationships between diverse concepts, 3) Improve context understanding through cross-referencing constitutional and philosophical frameworks.",
+    "for_human_understanding": "Humans can use this graph to: 1) Visualize connections between different philosophical traditions and constitutional frameworks, 2) Identify knowledge gaps in their understanding, 3) Explore interdisciplinary relationships between ethics and law.",
+    "for_training": "This graph can be used to create training datasets that teach AI systems to recognize and apply connections between different ethical frameworks, constitutional principles, and governance models."
   },
   "maintenance": {
     "how_to_update": "Run python master/update_knowledge_graph.py whenever a new skill is added or existing skills are updated. The graph should be updated to include new nodes from skill frameworks and new edges representing relationships.",
@@ -748,13 +885,17 @@
       "marx-capital-complete": {"nodes": 17, "edges": 20},
       "proudhon-property": {"nodes": 10, "edges": 12},
       "wollstonecraft-rights-woman": {"nodes": 11, "edges": 14},
+      "basic-law-for-the-federal-republic-of-germany": {"nodes": 4, "edges": 6},
+      "constitution-of-france": {"nodes": 4, "edges": 6},
+      "constitution-of-italy": {"nodes": 4, "edges": 6},
+      "constitution-of-spain": {"nodes": 4, "edges": 5},
       "master": {"nodes": 4, "edges": 0}
     },
     "by_category": {
-      "economic": 25,
-      "political": 12,
+      "economic": 29,
+      "political": 16,
       "philosophical": 10,
-      "social": 8,
+      "social": 12,
       "behavioral": 4,
       "ecological": 1,
       "ethical": 3,
@@ -762,7 +903,12 @@
       "critical": 3,
       "educational": 4,
       "theoretical": 2,
-      "historical": 3
+      "historical": 3,
+      "fundamental_principles": 1,
+      "governance": 3,
+      "political_structure": 2,
+      "social_rights": 1,
+      "national_identity": 1
     }
   }
 }

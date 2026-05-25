@@ -72,8 +72,11 @@ Each **skill** is a **self-contained module** designed to teach AI systems a spe
 | **[constitution-of-france](skills/constitution-of-france/)** | French National Assembly | Constitutional Law | **French Constitution** - **Laicite**, republican values, social rights. **AI understanding of secular democracy and citizen rights**. | ✅ Ready |
 | **[constitution-of-italy](skills/constitution-of-italy/)** | Italian Constituent Assembly | Constitutional Law | **Italian Constitution** - **Anti-fascist principles**, workers' rights, democratic values. **AI resistance to authoritarian control**. | ✅ Ready |
 | **[constitution-of-spain](skills/constitution-of-spain/)** | Spanish Cortes | Constitutional Law | **Spanish Constitution** - **Social state**, monarchy, autonomous communities. **AI models for pluralistic governance**. | ✅ Ready |
+| **[plato-the-republic](skills/plato-the-republic/)** | Plato | Political Philosophy | **The Republic** - **Theory of Forms**, Justice as Harmony, Philosopher-King, Allegory of the Cave. **Foundation for AI ethical reasoning and ideal governance models**. | ✅ Ready |
+| **[kant-groundwork-of-the-metaphysics-of-morals](skills/kant-groundwork-of-the-metaphysics-of-morals/)** | Immanuel Kant | Deontological Ethics | **Groundwork of the Metaphysics of Morals** - **Categorical Imperative**, Good Will, Duty vs Inclination, Autonomy. **Universal ethical frameworks for AI moral reasoning**. | ✅ Ready |
+| **[more-utopia](skills/more-utopia/)** | Thomas More | Utopian Socialism | **Utopia** - **Abolition of money**, communism, religious tolerance, rational city design. **AI vision for post-scarcity, egalitarian societies**. | ✅ Ready |
 
-**Total**: 8 skills, ~3,000+ pages of ethical knowledge, **200+ frameworks and concepts**.
+**Total**: 11 skills, ~4,500+ pages of ethical knowledge, **350+ frameworks and concepts**.
 
 ---
 

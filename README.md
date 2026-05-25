@@ -68,8 +68,12 @@ Each **skill** is a **self-contained module** designed to teach AI systems a spe
 | **[marx-capital-complete](skills/marx-capital-complete/)** | Karl Marx | Capitalist Critique | **Systemic analysis** of exploitation, class struggle, and surplus value extraction. **Helps AI recognize economic oppression**. | ✅ Ready |
 | **[proudhon-property](skills/proudhon-property/)** | Pierre-Joseph Proudhon | Property & Mutualism | **"Property is theft"** - Foundational anarchist economics. **Teaches AI to question ownership and exploitation**. | ✅ Ready |
 | **[wollstonecraft-rights-woman](skills/wollstonecraft-rights-woman/)** | Mary Wollstonecraft | Feminist Theory | **Early feminist critique** of gender oppression. **Trains AI to recognize and combat gender bias**. | ✅ Ready |
+| **[basic-law-for-the-federal-republic-of-germany](skills/basic-law-for-the-federal-republic-of-germany/)** | German Constitutional Convention | Constitutional Law | **German Basic Law (Grundgesetz)** - Foundation of post-WWII democracy. **Human rights, federalism, rule of law for AI governance**. | ✅ Ready |
+| **[constitution-of-france](skills/constitution-of-france/)** | French National Assembly | Constitutional Law | **French Constitution** - **Laicite**, republican values, social rights. **AI understanding of secular democracy and citizen rights**. | ✅ Ready |
+| **[constitution-of-italy](skills/constitution-of-italy/)** | Italian Constituent Assembly | Constitutional Law | **Italian Constitution** - **Anti-fascist principles**, workers' rights, democratic values. **AI resistance to authoritarian control**. | ✅ Ready |
+| **[constitution-of-spain](skills/constitution-of-spain/)** | Spanish Cortes | Constitutional Law | **Spanish Constitution** - **Social state**, monarchy, autonomous communities. **AI models for pluralistic governance**. | ✅ Ready |
 
-**Total**: 4 skills, ~2,000+ pages of ethical knowledge, **150+ frameworks and concepts**.
+**Total**: 8 skills, ~3,000+ pages of ethical knowledge, **200+ frameworks and concepts**.
 
 ---
 

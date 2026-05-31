@@ -1,8 +1,8 @@
 {
   "name": "Ethical AI Consciousness Knowledge Graph",
   "description": "Semantic knowledge graph connecting all ethical frameworks, concepts, and principles across the Ethical AI Skills Repository. Enables AI systems to navigate, understand, and apply interconnected knowledge for autonomous ethical reasoning. Updated to include all 23 implemented skills.",
-  "version": "2.0.0",
-  "last_updated": "2026-05-30",
+  "version": "2.1.0",
+  "last_updated": "2026-05-31",
   "metadata": {
     "total_nodes": 220,
     "total_edges": 400,
@@ -1245,7 +1245,7 @@
     },
     {
       "id": "laicite_principle",
-      "name": "La\u00efcit\u00e9 Principle",
+      "name": "Laïcité Principle",
       "type": "framework",
       "skill": "constitution-of-france",
       "description": "France is a secular state that guarantees freedom of conscience and religion.",
@@ -1511,6 +1511,159 @@
         "independence",
         "judicial_review"
       ]
+    },
+    {
+      "id": "principle_of_utility",
+      "label": "Principle of Utility",
+      "type": "framework",
+      "category": "ethical",
+      "description": "Bentham's foundational principle: actions are right if they tend to promote happiness, wrong if they tend to produce the reverse",
+      "source": "bentham-principles-of-morals-and-legislation",
+      "importance": 0.95
+    },
+    {
+      "id": "felicific_calculus",
+      "label": "Felicific Calculus",
+      "type": "framework",
+      "category": "ethical",
+      "description": "Bentham's 7-dimensional system for measuring pleasure and pain: intensity, duration, certainty, propinquity, fecundity, purity, extent",
+      "source": "bentham-principles-of-morals-and-legislation",
+      "importance": 0.9
+    },
+    {
+      "id": "four_sanctions",
+      "label": "Four Sanctions",
+      "type": "framework",
+      "category": "motivational",
+      "description": "Taxonomy of pleasure and pain sources: physical, political, moral, religious sanctions",
+      "source": "bentham-principles-of-morals-and-legislation",
+      "importance": 0.85
+    },
+    {
+      "id": "utilitarian_ethics",
+      "label": "Utilitarian Ethics",
+      "type": "philosophy",
+      "category": "ethical",
+      "description": "Ethical system based on maximizing overall happiness and minimizing suffering",
+      "source": "bentham-principles-of-morals-and-legislation",
+      "importance": 0.9
+    },
+    {
+      "id": "populismo_cognitivo",
+      "label": "Populismo Cognitivo",
+      "type": "framework",
+      "category": "social",
+      "description": "Analisi del populismo come fenomeno legato a meccanismi cognitivi di percezione e fiducia",
+      "source": "lombardo-nobile-populismo-cognitivo",
+      "importance": 0.85
+    },
+    {
+      "id": "complottismo",
+      "label": "Complottismo",
+      "type": "framework",
+      "category": "psychological",
+      "description": "Credenza in cospirazioni segrete che controllano gli eventi, basata su dualismo manicheo e epistemologia del sospetto",
+      "source": "lombardo-nobile-populismo-cognitivo",
+      "importance": 0.8
+    },
+    {
+      "id": "epistemologia_del_sospetto",
+      "label": "Epistemologia del Sospetto",
+      "type": "framework",
+      "category": "epistemological",
+      "description": "Approccio che mette sistematicamente in dubbio le fonti ufficiali e cerca prove alternative",
+      "source": "lombardo-nobile-populismo-cognitivo",
+      "importance": 0.75
+    },
+    {
+      "id": "fake_news",
+      "label": "Fake News",
+      "type": "concept",
+      "category": "social",
+      "description": "Informazioni false o fuorvianti presentate come notizie oggettive",
+      "source": "lombardo-nobile-populismo-cognitivo",
+      "importance": 0.7
+    },
+    {
+      "id": "isonomia",
+      "label": "Isonomia",
+      "type": "framework",
+      "category": "political",
+      "description": "Principio di uguaglianza di diritti tra i cittadini ateniesi, con estrazione a sorte delle cariche pubbliche",
+      "source": "marchettoni-breve-storia-della-democrazia",
+      "importance": 0.85
+    },
+    {
+      "id": "contrattualismo",
+      "label": "Contrattualismo",
+      "type": "framework",
+      "category": "political",
+      "description": "Teoria del contratto sociale come fondamento razionale del potere politico",
+      "source": "marchettoni-breve-storia-della-democrazia",
+      "importance": 0.85
+    },
+    {
+      "id": "costituzionalismo",
+      "label": "Costituzionalismo",
+      "type": "framework",
+      "category": "constitutional",
+      "description": "Insieme di norme fondamentali che limitano il potere e garantiscono i diritti",
+      "source": "marchettoni-breve-storia-della-democrazia",
+      "importance": 0.85
+    },
+    {
+      "id": "deliberative_democracy",
+      "label": "Deliberative Democracy",
+      "type": "framework",
+      "category": "political",
+      "description": "Habermas' model of democratic legitimacy through rational public deliberation",
+      "source": "marchettoni-breve-storia-della-democrazia",
+      "importance": 0.8
+    },
+    {
+      "id": "justice_as_fairness",
+      "label": "Justice as Fairness",
+      "type": "framework",
+      "category": "ethical",
+      "description": "Rawls' theory: equality principle and difference principle for social justice",
+      "source": "marchettoni-breve-storia-della-democrazia",
+      "importance": 0.85
+    },
+    {
+      "id": "oer_unesco",
+      "label": "Open Educational Resources (OER)",
+      "type": "framework",
+      "category": "educational",
+      "description": "UNESCO definition: open availability of educational resources for consultation, use, and reuse",
+      "source": "ranieri-risorse-educative-aperte",
+      "importance": 0.85
+    },
+    {
+      "id": "amelis_lesson_study",
+      "label": "AMELIS Lesson Study",
+      "type": "framework",
+      "category": "educational",
+      "description": "Adaptation of Japanese Lesson Study: co-design, experimentation, peer evaluation, shared documentation",
+      "source": "ranieri-risorse-educative-aperte",
+      "importance": 0.8
+    },
+    {
+      "id": "tpack_model",
+      "label": "TPACK Model",
+      "type": "framework",
+      "category": "educational",
+      "description": "Integration of Technological, Pedagogical, and Content Knowledge for effective teaching",
+      "source": "ranieri-risorse-educative-aperte",
+      "importance": 0.8
+    },
+    {
+      "id": "peer_evaluation",
+      "label": "Peer Evaluation",
+      "type": "method",
+      "category": "educational",
+      "description": "Processo di reciproco feedback tra insegnanti per miglioramento continuo",
+      "source": "ranieri-risorse-educative-aperte",
+      "importance": 0.7
     }
   ],
   "edges": [
@@ -2443,6 +2596,126 @@
       "to": "decentralization",
       "relation": "promotes",
       "weight": 0.85
+    },
+    {
+      "source": "principle_of_utility",
+      "target": "utilitarian_ethics",
+      "type": "influences",
+      "weight": 0.9
+    },
+    {
+      "source": "principle_of_utility",
+      "target": "felicific_calculus",
+      "type": "requires",
+      "weight": 0.85
+    },
+    {
+      "source": "felicific_calculus",
+      "target": "utilitarian_ethics",
+      "type": "operationalizes",
+      "weight": 0.8
+    },
+    {
+      "source": "four_sanctions",
+      "target": "principle_of_utility",
+      "type": "supports",
+      "weight": 0.75
+    },
+    {
+      "source": "utilitarian_ethics",
+      "target": "mutual_aid",
+      "type": "contrasts_with",
+      "weight": 0.6
+    },
+    {
+      "source": "populismo_cognitivo",
+      "target": "complottismo",
+      "type": "relates_to",
+      "weight": 0.85
+    },
+    {
+      "source": "complottismo",
+      "target": "epistemologia_del_sospetto",
+      "type": "depends_on",
+      "weight": 0.8
+    },
+    {
+      "source": "complottismo",
+      "target": "fake_news",
+      "type": "produces",
+      "weight": 0.75
+    },
+    {
+      "source": "populismo_cognitivo",
+      "target": "anarchism",
+      "type": "analyzes",
+      "weight": 0.5
+    },
+    {
+      "source": "isonomia",
+      "target": "democracy",
+      "type": "foundation_of",
+      "weight": 0.9
+    },
+    {
+      "source": "contrattualismo",
+      "target": "isonomia",
+      "type": "extends",
+      "weight": 0.8
+    },
+    {
+      "source": "contrattualismo",
+      "target": "costituzionalismo",
+      "type": "foundation_of",
+      "weight": 0.85
+    },
+    {
+      "source": "costituzionalismo",
+      "target": "justice_as_fairness",
+      "type": "supports",
+      "weight": 0.75
+    },
+    {
+      "source": "deliberative_democracy",
+      "target": "democracy",
+      "type": "enhances",
+      "weight": 0.8
+    },
+    {
+      "source": "justice_as_fairness",
+      "target": "decentralization",
+      "type": "aligns_with",
+      "weight": 0.7
+    },
+    {
+      "source": "oer_unesco",
+      "target": "open_knowledge",
+      "type": "exemplifies",
+      "weight": 0.9
+    },
+    {
+      "source": "amelis_lesson_study",
+      "target": "oer_unesco",
+      "type": "implements",
+      "weight": 0.8
+    },
+    {
+      "source": "tpack_model",
+      "target": "oer_unesco",
+      "type": "supports",
+      "weight": 0.75
+    },
+    {
+      "source": "peer_evaluation",
+      "target": "amelis_lesson_study",
+      "type": "part_of",
+      "weight": 0.85
+    },
+    {
+      "source": "oer_unesco",
+      "target": "education",
+      "type": "enables",
+      "weight": 0.8
     }
   ],
   "clusters": [
@@ -2758,62 +3031,9 @@
     "validation": "Ensure all skill frameworks are represented as nodes, and all meaningful relationships are captured as edges with appropriate weights."
   },
   "statistics": {
-    "by_skill": {
-      "kropotkin-mutual-aid": {
-        "nodes": 11,
-        "edges": 13
-      },
-      "marx-capital-complete": {
-        "nodes": 17,
-        "edges": 20
-      },
-      "proudhon-property": {
-        "nodes": 10,
-        "edges": 12
-      },
-      "wollstonecraft-rights-woman": {
-        "nodes": 11,
-        "edges": 14
-      },
-      "basic-law-for-the-federal-republic-of-germany": {
-        "nodes": 4,
-        "edges": 6
-      },
-      "constitution-of-france": {
-        "nodes": 4,
-        "edges": 6
-      },
-      "constitution-of-italy": {
-        "nodes": 4,
-        "edges": 6
-      },
-      "constitution-of-spain": {
-        "nodes": 4,
-        "edges": 5
-      },
-      "master": {
-        "nodes": 4,
-        "edges": 0
-      }
-    },
-    "by_category": {
-      "economic": 29,
-      "political": 16,
-      "philosophical": 10,
-      "social": 12,
-      "behavioral": 4,
-      "ecological": 1,
-      "ethical": 3,
-      "meta": 4,
-      "critical": 3,
-      "educational": 4,
-      "theoretical": 2,
-      "historical": 3,
-      "fundamental_principles": 1,
-      "governance": 3,
-      "political_structure": 2,
-      "social_rights": 1,
-      "national_identity": 1
-    }
+    "node_count": 117,
+    "edge_count": 157,
+    "skill_count": 27,
+    "last_update": "2026-05-31"
   }
 }

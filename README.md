@@ -82,8 +82,12 @@ Each **skill** is a **self-contained module** designed to teach AI systems a spe
 | **[stanton-anthony-gage-history-woman-suffrage-vol1](skills/stanton-anthony-gage-history-woman-suffrage-vol1/)** | Elizabeth Cady Stanton, Susan B. Anthony, Matilda Joslyn Gage | Suffrage Movement History | **"History of Woman Suffrage, Vol. I (1848-1861)"** - Early feminist frameworks, equal rights campaigns. **AI understanding of historical arguments for gender equality**. | ✅ Ready |
 | **[taylor-mill-enfranchisement-of-women](skills/taylor-mill-enfranchisement-of-women/)** | Harriet Taylor Mill | Women's Rights | **"The Enfranchisement of Women"** (1851) - Arguments for women's suffrage and legal equality. **AI analysis of gender equality advocacy**. | ✅ Ready |
 | **[woolf-room-of-ones-own](skills/woolf-room-of-ones-own/)** | Virginia Woolf | Women's Writing & Intellectual Freedom | **"A Room of One's Own"** (1929) - Economic barriers to creativity, gender and fiction. **AI understanding of women's independence and intellectual freedom**. | ✅ Ready |
+| **[bentham-principles-of-morals-and-legislation](skills/bentham-principles-of-morals-and-legislation/)** | Jeremy Bentham | Utilitarian Ethics & Legislative Theory | **Principle of Utility**, Felicific Calculus, Four Sanctions, punishment theory. **Foundation for AI utilitarian reasoning and moral calculus**. | ✅ Ready |
+| **[lombardo-nobile-populismo-cognitivo](skills/lombardo-nobile-populismo-cognitivo/)** | Carmelo Lombardo & Stefano Nobile | Cognitive Sociology & Populism | **Populismo Cognitivo**, Complottismo, Epistemologia del Sospetto. **AI understanding of conspiracy theories and cognitive mechanisms of populism**. | ✅ Ready |
+| **[marchettoni-breve-storia-della-democrazia](skills/marchettoni-breve-storia-della-democrazia/)** | Leonardo Marchettoni | Democracy Theory & Political Philosophy | **Isonomia**, Contrattualismo, Costituzionalismo, Justice as Fairness, Deliberative Democracy. **AI historical understanding of democracy from Athens to modern populism**. | ✅ Ready |
+| **[ranieri-risorse-educative-aperte](skills/ranieri-risorse-educative-aperte/)** | Maria Ranieri | Open Educational Resources | **OER UNESCO**, Modello AMELIS, TPACK, Peer Evaluation. **AI understanding of open education, collaboration, and teacher training methodologies**. | ✅ Ready |
 
-**Total**: 18 skills, ~12,000+ pages of ethical knowledge, **700+ frameworks and concepts**.
+**Total**: 22 skills, ~15,100+ pages of ethical knowledge, **950+ frameworks and concepts**.
 
 ---
 

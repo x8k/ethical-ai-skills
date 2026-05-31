@@ -9,11 +9,12 @@
    - Legislative texts and official state documents **excluded from copyright protection**
 
 2. **Open and permissive licenses (or equivalent)**:
-   - **Creative Commons Attribution (CC BY 4.0)** - For modern translations and adaptations where applicable
+   - **Creative Commons Attribution (CC BY 4.0)** - For modern works from Firenze University Press and other open access publishers
+   - **Creative Commons Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND 4.0)** - For FrancoAngeli Open Access publications
    - **Creative Commons Zero (CC0 1.0 Universal)** - For supporting data and metadata
    - **MIT License** - For configuration files and auxiliary code
 
-**All literary works included are in the public domain.** The translations used are **official public translations** or **derivative works released under CC BY 4.0 or equivalent licenses.** Legislative texts are **expressly excluded from copyright protection.**
+**All literary works included are either in the public domain or used under open/fair use provisions.** The translations used are **official public translations** or **derivative works released under CC BY 4.0 or equivalent licenses.** Legislative texts are **expressly excluded from copyright protection.**
 
 **List of Works and Their Status:**
 
@@ -37,6 +38,10 @@
 | Constitution of the French Fifth Republic | French Constitutional Convention | 1958 | **Public Domain** |
 | Constitution of Spain | Spanish Cortes | 1978 | **Public Domain** |
 | Basic Law for the Federal Republic of Germany | German Constitutional Convention | 1949 | **Public Domain** |
+| An Introduction to the Principles of Morals and Legislation | Jeremy Bentham | 1780 | **Public Domain** |
+| Tutti i clacson della mattina. Sociologia del populismo cognitivo | Carmelo Lombardo & Stefano Nobile | 2023 | **CC BY-NC-ND 4.0 (Chapter 7 only, FrancoAngeli Open Access)** |
+| Breve storia della democrazia: Da Atene al populismo | Leonardo Marchettoni | 2018 | **CC BY 4.0 (Firenze University Press)** |
+| Risorse educative aperte e sperimentazione didattica | Maria Ranieri | 2012 | **CC BY 4.0 (Firenze University Press)** |
 
 **Takedown Procedure:**
 The maintainer of this repository, **upon written and documented request from rights holders**, will proceed with the **prompt removal** of any content that violates copyright or related rights.

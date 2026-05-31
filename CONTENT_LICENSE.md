@@ -8,7 +8,7 @@
    - Works whose authors have been deceased for over **70 years**
    - Legislative texts and official state documents **excluded from copyright protection**
 
-2. **Open and permissive licenses**:
+2. **Open and permissive licenses (or equivalent)**:
    - **Creative Commons Attribution (CC BY 4.0)** - For modern translations and adaptations where applicable
    - **Creative Commons Zero (CC0 1.0 Universal)** - For supporting data and metadata
    - **MIT License** - For configuration files and auxiliary code

@@ -1,3 +1,12 @@
+---
+name: basic-law-for-the-federal-republic-of-germany
+description: "Comprehensive knowledge base of the Basic Law for the Federal Republic of Germany (Grundgesetz). Covers constitutional principles, fundamental rights, federalism, institutional architecture, legislative procedures, emergency provisions, and comparative constitutional analysis. Includes frameworks for applying German constitutional law, proportionality tests, and eternity clause patterns."
+allowed-tools:
+  - Read
+  - Grep
+argument-hint: [topic, framework name, or chapter number]
+---
+
 # Basic Law for the Federal Republic of Germany
 
 **Formal Title**: Basic Law for the Federal Republic of Germany  
